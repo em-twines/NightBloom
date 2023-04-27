@@ -7,6 +7,8 @@ export default function NavBar() {
     <div className = "navBar">
         {/* <h1 className = "logo-night">Night</h1><span><h1 className = "logo-bloom">Bloom</h1></span> */}
         <img src={headline} alt = "NightBloom Logo"/>
+        <div className = "nav-bar-home">Home</div>
+        <button className = 'enter'>Enter</button>
     </div>
   )
 }
