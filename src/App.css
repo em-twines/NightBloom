@@ -1,0 +1,30 @@
+html{
+    background-color: black;
+    font-size: 1rem;
+}
+
+.navBar{
+    display: flex; 
+    height: 4rem;
+    align-items: center; 
+    letter-spacing: .15px;
+    width: 100%;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+/* .logo-night{
+    font-size: 2rem;
+    color: #E6E1E5;
+} */
+/* .logo-bloom{
+    font-size: 2rem;
+    background: linear-gradient(to bottom right, #3B37FF 2%, #E401A5, #FF2F22);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     
+}*/
