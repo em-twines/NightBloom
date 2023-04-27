@@ -8,7 +8,11 @@ export default function Title() {
     <div className = 'header-box'>
         
         <div className = 'header'>NightBloom</div>
-        <div className = 'subtext'>Discover your imagination -- Midjourney search engine </div>
+        <div className = 'subtext'>
+            <span>Discover your imagination </span>
+            — 
+            <span> Midjourney search engine</span>
+        </div>
 
         <Search/>
     </div>
