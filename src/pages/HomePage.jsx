@@ -1,15 +1,15 @@
 import React from "react";
 
 import NavBar from "../components/NavBar";
-import Search from "../components/Search";
 import MainGrid from "../components/MainGrid";
+import Title from "../components/Title";
 
 export default function HomePage() {
   return (
     <div>
       <NavBar/>
       <div className="home-page">
-        <Search/>
+        <Title/>
         <MainGrid/>
       </div>
     </div>
