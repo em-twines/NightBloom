@@ -85,11 +85,12 @@ button.enter:hover {
   input[type="search"] {
     border: none;
     background: transparent;
-    padding: .8rem  1rem;
+    padding: .8rem 1rem;
     font-size: 1.1rem;
     color: #E6E1E5;
     border: 1px solid transparent;
     border-radius: inherit;
+    width: 100%;
 
   }
 
