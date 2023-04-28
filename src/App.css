@@ -86,19 +86,24 @@ button.enter:hover {
     /* margin: 0; */
     padding: 7px 8px;
     font-size: 14px;
-    color: inherit;
+    color: #E6E1E5;
     border: 1px solid transparent;
     border-radius: inherit;
+
   }
 
   input[type="search"]::placeholder {
     color: #CAC4D0;
     border: none;
   }
+  input[type="search"]:focus::placeholder {
+    color: transparent;
+}
 
   input:focus{
     outline: 0;
   }
+
   .search-background{
     display: flex; 
     align-items: center;
